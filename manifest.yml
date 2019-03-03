@@ -4,6 +4,8 @@ applications:
     path: .
     routes:
       - route: cfpush-cloud-poc.cfapps.io
+      - route: cfpush-cloud.cfapps.io
+      - route: cfpush.cfapps.io
     buildpacks:
       - staticfile_buildpack
     instances: 1
