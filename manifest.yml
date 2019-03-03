@@ -1,0 +1,12 @@
+---
+applications:
+  - name: cfpush.cloud-poc
+    path: .
+    routes:
+      - route: cfpush-cloud-poc.cfapps.io
+    buildpacks:
+      - staticfile_buildpack
+    instances: 1
+    memory: 64M
+    disk: 64M
+
