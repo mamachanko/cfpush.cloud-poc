@@ -1,3 +1,3 @@
 #!/usr/bin/env bash -ex
 
-python -m SimpleHTTPServer 8080
+python -m SimpleHTTPServer 8081
